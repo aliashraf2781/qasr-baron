@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Qasr Al Baron</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style/bootstrap.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel='stylesheet' type='text/css' media='screen' href='style/main.css'>
+    <link rel="icon" href="images/favicon.jpg" type="image/x-icon">
+</head>
+<body>
+    <header class="header-text my-4 ">
+        <h1 class="header-name text-center">Qasr Al Baron</h1>
+        <p class="header-desc text-center">we make your sweet dreams come true</p>
+        <div class="social-media mx-auto w-25 d-flex justify-content-evenly my-2">
+            <a href="https://www.facebook.com/Qasr.albaron?mibextid=LQQJ4d" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/qasralbaronpatisserie?igsh=MWh1MW4wMDN2MDBncA==" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+    </header>
+    <div class="menu pb-5">
+        <div class="container">
+            <div class="row gy-4 categories justify-content-center align-content-center">
+                <div class="col-md-5">
+                    <div onclick="toPage('eastern')" class="category eastern bg-white shadow-lg  rounded-5 d-flex align-items-center  justify-content-between pe-5">
+                        <div class="img-parent">
+                            <img src="images/الصفحة الرئيسية_2.webp" class="category-img ">
+                        </div>
+                        <h4 class="category-name">شرقي</h4>
+                    </div>
+                </div>
+                <div class="col-md-5">
+
+                    <div onclick="toPage('western')" class="category western bg-white shadow-lg  rounded-5 d-flex align-items-center  justify-content-between pe-5">
+                        <div class="img-parent">
+                            <img  src="images/الصفحة الرئيسية غربي_10.webp" class="category-img ">
+                        </div>
+                        <h4 class="category-name">غربي</h4>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div onclick="toPage('chocolate')" class="category chocolates bg-white shadow-lg  rounded-5 d-flex align-items-center  justify-content-between pe-5">
+                        <div class="img-parent">
+                            <img  src="images/mainIce_3_11zon.webp" class="category-img ">
+                        </div>
+                        <h4 class="category-name text-end">شيكولاتة و ايس كريم</h4>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div onclick="toPage('bakery')" class="category bakery bg-white shadow-lg  rounded-5 d-flex align-items-center  justify-content-between pe-5">
+                        <div class="img-parent">
+                            <img  src="images/الصفحة الرئيسية_36.webp" class="category-img ">
+                        </div>
+                        <h4 class="category-name">مخبوزات</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script/main.js" defer></script>
+</body>
+</html>
